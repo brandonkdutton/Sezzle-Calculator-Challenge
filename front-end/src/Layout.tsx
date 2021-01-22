@@ -9,7 +9,7 @@ import { SnackbarContext } from './alerts/SnackbarWrapper';
 
 const useStyles = makeStyles((theme) => ({
   feedBounds: {
-    overflowY: 'auto'
+    overflowY: 'auto',
   },
   layoutContainer: {
     padding: theme.spacing(2),
