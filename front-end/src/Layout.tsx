@@ -9,11 +9,9 @@ import { SnackbarContext } from './alerts/SnackbarWrapper';
 
 const useStyles = makeStyles((theme) => ({
   feedBounds: {
-    overflowY: 'auto',
   },
   layoutContainer: {
     padding: theme.spacing(2),
-    maxHeight: '100vh',
     flexWrap: 'nowrap'
   }
 }));
@@ -34,7 +32,7 @@ const Layout: FC = ({ }) => {
     'date_created': string
   }
 
-  // holds list of the 10 most recent equations for inital fetch.
+  // holds list of the 10 most recent equations for initial fetch.
   interface InitialEquationFetch {
     'equations': [EquationBroadcast]
   }

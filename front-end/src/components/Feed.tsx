@@ -17,7 +17,9 @@ const useStyles = makeStyles((theme: Theme) =>
     list: {
       width: '100%',
       display: 'flex',
-      flexDirection: 'column-reverse'
+      flexDirection: 'column-reverse',
+      maxHeight: '55vh',
+      overflowY: 'auto'
     },
     timeLabel: {
       textAlign: 'right'

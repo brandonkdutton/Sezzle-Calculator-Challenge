@@ -20,7 +20,6 @@ const DarkModeWrapper: FC<props> = ({ children }) => {
       minWidth: '100%',
       position: 'absolute',
       backgroundColor: theme.palette.background.default,
-      display: 'flex'
     },
   });
 
