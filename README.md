@@ -24,4 +24,4 @@ Now from within the 'front-end' directory run the following commands:
 
 Please Note:
 
-- This uses an sqlite3 database so that it can be easily run locally, but the config file can be edited to use a real relational database. The live version of this app that I am hosting uses a mySql database from AWS.
+- This uses an sqlite3 database so that it can be easily run locally, but the config file can be edited to use a real relational database.
